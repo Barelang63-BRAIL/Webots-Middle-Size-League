@@ -1,0 +1,3 @@
+/home/dika/Documents/soccer_webots/controllers/barelang_ws/build/CMakeFiles/barelang_ws.dir
+/home/dika/Documents/soccer_webots/controllers/barelang_ws/build/CMakeFiles/edit_cache.dir
+/home/dika/Documents/soccer_webots/controllers/barelang_ws/build/CMakeFiles/rebuild_cache.dir

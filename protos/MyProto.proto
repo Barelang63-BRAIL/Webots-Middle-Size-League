@@ -1,0 +1,281 @@
+#VRML_SIM R2023b utf8
+# Describe the functionality of your PROTO here.
+
+
+PROTO MyProto [
+  field SFVec3f translation 0 0 0
+  field SFRotation rotation 0 0 1 0
+]
+{
+Solid {
+  translation IS translation
+  rotation IS rotation
+  children [
+    Group {
+      children [
+        Pose {
+          translation 0 0 0.0011
+          children [
+            Shape {
+              appearance PBRAppearance {
+                roughness 1
+                metalness 0
+              }
+              geometry Plane {
+                size 0.075 6
+              }
+            }
+          ]
+        }
+        Pose {
+          translation 4.5 0 0
+          children [
+            Shape {
+              appearance PBRAppearance {
+                roughness 1
+                metalness 0
+              }
+              geometry Plane {
+                size 0.075 6
+              }
+            }
+          ]
+        }
+        Pose {
+          translation -4.5 0 0
+          children [
+            Shape {
+              appearance PBRAppearance {
+                roughness 1
+                metalness 0
+              }
+              geometry Plane {
+                size 0.075 6
+              }
+            }
+          ]
+        }
+        Pose {
+          translation 0 3 0
+          children [
+            Shape {
+              appearance PBRAppearance {
+                roughness 1
+                metalness 0
+              }
+              geometry Plane {
+                size 9 0.075
+              }
+            }
+          ]
+        }
+        Pose {
+          translation 0 -3 0
+          children [
+            Shape {
+              appearance PBRAppearance {
+                roughness 1
+                metalness 0
+              }
+              geometry Plane {
+                size 9 0.075
+              }
+            }
+          ]
+        }
+        Pose {
+          translation -3.5 -2.5 0
+          children [
+            Shape {
+              appearance PBRAppearance {
+                roughness 1
+                metalness 0
+              }
+              geometry Plane {
+                size 2 0.075
+              }
+            }
+          ]
+        }
+        Pose {
+          translation 3.5 -2.5 0
+          children [
+            Shape {
+              appearance PBRAppearance {
+                roughness 1
+                metalness 0
+              }
+              geometry Plane {
+                size 2 0.075
+              }
+            }
+          ]
+        }
+        Pose {
+          translation 3.5 2.5 0
+          children [
+            Shape {
+              appearance PBRAppearance {
+                roughness 1
+                metalness 0
+              }
+              geometry Plane {
+                size 2 0.075
+              }
+            }
+          ]
+        }
+        Pose {
+          translation -3.5 2.5 0
+          children [
+            Shape {
+              appearance PBRAppearance {
+                roughness 1
+                metalness 0
+              }
+              geometry Plane {
+                size 2 0.075
+              }
+            }
+          ]
+        }
+        Pose {
+          translation -4 1.5 0
+          children [
+            Shape {
+              appearance PBRAppearance {
+                roughness 1
+                metalness 0
+              }
+              geometry Plane {
+                size 1 0.075
+              }
+            }
+          ]
+        }
+        Pose {
+          translation -4 -1.5 0
+          children [
+            Shape {
+              appearance PBRAppearance {
+                roughness 1
+                metalness 0
+              }
+              geometry Plane {
+                size 1 0.075
+              }
+            }
+          ]
+        }
+        Pose {
+          translation 4 -1.5 0
+          children [
+            Shape {
+              appearance PBRAppearance {
+                roughness 1
+                metalness 0
+              }
+              geometry Plane {
+                size 1 0.075
+              }
+            }
+          ]
+        }
+        Pose {
+          translation 4 1.5 0
+          children [
+            Shape {
+              appearance PBRAppearance {
+                roughness 1
+                metalness 0
+              }
+              geometry Plane {
+                size 1 0.075
+              }
+            }
+          ]
+        }
+        Pose {
+          translation -3.5 0 0
+          children [
+            Shape {
+              appearance PBRAppearance {
+                roughness 1
+                metalness 0
+              }
+              geometry Plane {
+                size 0.075 3
+              }
+            }
+          ]
+        }
+        Pose {
+          translation 3.5 0 0
+          children [
+            Shape {
+              appearance PBRAppearance {
+                roughness 1
+                metalness 0
+              }
+              geometry Plane {
+                size 0.075 3
+              }
+            }
+          ]
+        }
+        Pose {
+          translation -2.5 0 0
+          children [
+            Shape {
+              appearance PBRAppearance {
+                roughness 1
+                metalness 0
+              }
+              geometry Plane {
+                size 0.075 5
+              }
+            }
+          ]
+        }
+        Pose {
+          translation 2.5 0 0
+          children [
+            Shape {
+              appearance PBRAppearance {
+                roughness 1
+                metalness 0
+              }
+              geometry Plane {
+                size 0.075 5
+              }
+            }
+          ]
+        }
+        Shape {
+          appearance PBRAppearance {
+            roughness 1
+            metalness 0
+          }
+          geometry Plane {
+            size 0.075 6
+          }
+        }
+        Shape {
+          appearance PBRAppearance {
+            roughness 1
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.001
+            radius 0.8
+          }
+        }
+      ]
+    }
+  ]
+  name "garis_lapangan"
+  recognitionColors [
+    1 1 1
+  ]
+}
+}

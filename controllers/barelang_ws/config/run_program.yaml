@@ -1,0 +1,24 @@
+programs:
+  - name: Program 1
+    command: /usr/local/webots/webots-controller 
+    args: --robot-name=TEAM0 barelang_ws TEAM0 0 agent1 0 ENEMY0 ENEMY1 ENEMY2 0
+
+  - name: Program 2
+    command: /usr/local/webots/webots-controller 
+    args: --robot-name=TEAM1 barelang_ws TEAM1 1 agent1 0 ENEMY0 ENEMY1 ENEMY2 0
+
+  - name: Program 3
+    command: /usr/local/webots/webots-controller 
+    args: --robot-name=TEAM2 barelang_ws TEAM2 2 agent1 0 ENEMY0 ENEMY1 ENEMY2 1
+   
+  - name: ENEMY 0
+    command: /usr/local/webots/webots-controller 
+    args: --robot-name=ENEMY0 barelang_ws ENEMY0 0 agent2 1 TEAM0 TEAM1 TEAM2 0
+  
+  - name: ENEMY 1
+    command: /usr/local/webots/webots-controller 
+    args: --robot-name=ENEMY1 barelang_ws ENEMY1 1 agent2 1 TEAM0 TEAM1 TEAM2 0
+    
+  - name: ENEMY 2
+    command: /usr/local/webots/webots-controller 
+    args: --robot-name=ENEMY2 barelang_ws ENEMY2 2 agent2 1 TEAM0 TEAM1 TEAM2 1

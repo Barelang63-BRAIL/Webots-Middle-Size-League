@@ -1,0 +1,24 @@
+programs:
+  - name: Team 0
+    command: /opt/offline/bin/offline_node 
+    args: --agent_id 0 --rtdb_config_file /opt/offline/config/cfg.xml --network_name agent1
+
+  - name: Team 1
+    command: /opt/offline/bin/offline_node 
+    args: --agent_id 1 --rtdb_config_file /opt/offline/config/cfg.xml --network_name agent1
+
+  - name: Team 2
+    command: /opt/offline/bin/offline_node 
+    args: --agent_id 2 --rtdb_config_file /opt/offline/config/cfg.xml --network_name agent1
+    
+  - name: Enemy 0
+    command: /opt/offline/bin/offline_node 
+    args: --agent_id 0 --rtdb_config_file /opt/offline/config/cfg.xml --network_name agent2
+
+  - name: Enemy 1
+    command: /opt/offline/bin/offline_node 
+    args: --agent_id 1 --rtdb_config_file /opt/offline/config/cfg.xml --network_name agent2
+
+  - name: Enemy 2
+    command: /opt/offline/bin/offline_node 
+    args: --agent_id 2 --rtdb_config_file /opt/offline/config/cfg.xml --network_name agent2

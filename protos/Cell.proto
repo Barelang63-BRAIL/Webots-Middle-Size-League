@@ -1,0 +1,32 @@
+#VRML_SIM R2023b utf8
+# Describe the functionality of your PROTO here.
+
+
+PROTO Cell [
+  field SFVec3f translation 0 0 0
+  field SFRotation rotation 0 0 1 0
+  field SFString   name "cell1"
+  field SFColor    color 1.0 1.0 1.0
+  field SFFloat    transparency 0.0
+  
+]
+{
+Solid {
+  translation IS translation
+  rotation IS rotation
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor IS color
+        transparency IS transparency
+        roughness 1
+        metalness 0
+      }
+      geometry Plane {
+        size 0.25 0.25
+      }
+    }
+  ]
+  name IS name
+}
+}
